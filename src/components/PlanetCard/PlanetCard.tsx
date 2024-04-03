@@ -79,7 +79,7 @@ export default function PlanetCard({
       <Card
         className={cn(
           className,
-          "border-yellow-100 glowing-yellow-border md:w-[520px] min-w-[250px]  text-yellow-300 flex "
+          "border-yellow-300 rounded-[16px] border-[5px] glowing-yellow-border md:w-[520px] min-w-[250px]  text-yellow-300 flex"
         )}
         {...props}
       >

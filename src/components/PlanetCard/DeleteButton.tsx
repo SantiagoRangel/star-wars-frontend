@@ -44,6 +44,7 @@ export default function DeleteButton({ planet }: { planet: Planet }) {
                 onClick={() => {
                   mutation.mutate(planet.id);
                 }}
+                disabled={mutation.status === "pending"}
               >
                 <img src="/icons/check.svg" alt="check icon" />
               </Button>
