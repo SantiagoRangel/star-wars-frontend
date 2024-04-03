@@ -29,7 +29,7 @@ export default function PlanetLabel({
   return (
     <div className={cn(className)} {...props}>
       <div className="flex flex-wrap  text-yellow-200">
-        <h3 className="text-sm font-[400] leading-none tracking-tight mr-2">
+        <h3 className="text-sm font-[400] leading-none tracking-tight mr-1">
           {label}:
         </h3>
         {label === "Residents" ? (
