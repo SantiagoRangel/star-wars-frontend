@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #030712;
+}
+
+.glowing-yellow-border:hover {
+  box-shadow: #facc15 0px 0px 10px;
+}
+
+.glowing-orange-border:hover {
+  box-shadow: #fdba74 0px 0px 5px;
+}
+
+.glowing-red-border:hover {
+  box-shadow: #ef4444 0px 0px 5px;
+}
+
+.glowing-green-border:hover {
+  box-shadow: #a3e635 0px 0px 5px;
+}
+.glowing-blue-border:hover {
+  box-shadow: #22d3ee 0px 0px 5px;
+}
